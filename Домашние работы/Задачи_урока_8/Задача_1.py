@@ -5,7 +5,7 @@ import telebot
 import requests
 import time
 
-bot = telebot.TeleBot("6197585226:AAFFC413GxsinyXZAa_PqzFOwedX5rYQK8Q")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
